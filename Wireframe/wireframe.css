@@ -10,7 +10,14 @@ nav {
     left: 0;
     height: 7%;
     width: 100%;
-    background-color: grey;}
+    background-color: RGB(120, 125, 114);
+    /* color: whitesmoke; */
+}
+nav *{
+    background-color: RGB(120, 125, 114);
+    color: whitesmoke;
+}
+}
 .initials-logo {
     width: 25%;
     float: left;
@@ -28,6 +35,18 @@ main {
     margin: 11% 0 0 auto;
 }
 
+header, header *{
+    background-color: RGB(157, 163, 161);
+    color: black;
+}
+.personal-info, .personal-info *{
+    background-color: RGB(242, 252, 250);
+    color: black;
+}
+.project-info *{
+    background-color: RGB(57, 58, 69);
+    color: whitesmoke;
+}
 h1 {
     height: 10;
     width: 50%;
