@@ -1,7 +1,14 @@
-* {
-    box-sizing: border-box;
-    border: 1px solid black;
+body {
+    margin: 12% 0 0 ;
 }
+main , section, section * {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+header, .headline-contacts, .bio-parag, .project-info, .project-info section {
+    text-align: center;
+} 
 
 nav {
     position: fixed;
@@ -32,18 +39,22 @@ a {
 
 main {
     /* padding: 0 10%; */
-    margin: 11% 0 0 auto;
+    margin: 7% 0 auto;
 }
 
 header, header *{
     background-color: RGB(157, 163, 161);
     color: black;
 }
+
+header {
+    height: 7%;
+}
 .personal-info, .personal-info *{
     background-color: RGB(242, 252, 250);
     color: black;
 }
-.project-info *{
+.project-info, .project-info *{
     background-color: RGB(57, 58, 69);
     color: whitesmoke;
 }
@@ -57,26 +68,27 @@ h1 {
 .personal-info {
     /* height: auto; */
     display: block;
-    /* position: relative */
-    margin-top: 30px;
-    margin-bottom: 30px;
+    width: 100%;
+    height: 40%;
 }
 
 .project-info {
     height: 55%;
+    width: 100%;
 
 }
 
 .headline-contacts {
     display: block;
+    text
     left: 10%;
-    width: 30%;
+    width: 100%;
     float: left;
 }
 
 .bio-parag {
     display: block;
     right: 10%;
-    width: 60%;
+    width: 100%;
     float: right;
 }
