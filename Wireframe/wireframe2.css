@@ -23,18 +23,54 @@ nav {
 nav *{
     background-color: RGB(120, 125, 114);
     color: whitesmoke;
+    border: 1px solid whitesmoke;
+    font-size: 18px;
 }
+nav span {
+/* nav span.initials-logo{ */
+    height: 100%;
+    margin: auto 0 auto;
+    position: absolute;
+}
+
+
 }
 .initials-logo {
-    width: 25%;
-    float: left;
+    width: 30%;
+    /* float: left; */
+    margin: auto;
+    top: 0;
+    left: 0;
 }
+
+.initials-logo a {
+    padding: 0 0;
+    text-align: center;
+    margin: 30;
+    
+}
+
 .page-links {
-    width: 40%;
-    float: right;
+    /* width: 40%; */
+    /* float: right; */
+    top: 0;
+    right: 0;
 }
 a {
+    borde: black solid 1px;
     margin: auto 5px;
+    height: 100%;
+}
+
+.headline-contacts div {
+    border: black solid 1px;
+    width: 50%;
+    margin: auto auto;
+}
+
+.headline-contacts img {
+    height: 20%;
+    width: 20%;
 }
 
 main {
@@ -72,11 +108,7 @@ h1 {
     height: 40%;
 }
 
-.project-info {
-    height: 55%;
-    width: 100%;
 
-}
 
 .headline-contacts {
     display: block;
@@ -92,3 +124,19 @@ h1 {
     width: 100%;
     float: right;
 }
+.bio-parag p{
+    text-align: justify;
+    margin: 5%;
+}
+
+.project-info {
+    height: 55%;
+    width: 100%;
+}
+
+.project-snapshot {
+    border: whitesmoke 1px solid;
+    width: 250px;
+    height: 350px;
+}
+
