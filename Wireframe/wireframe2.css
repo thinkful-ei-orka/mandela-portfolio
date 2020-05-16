@@ -1,3 +1,5 @@
+
+
 body {
     margin: 12% 0 0 ;
 }
@@ -42,7 +44,7 @@ nav *{
     right: 0;
 }
 a {
-    borde: black solid 1px;
+    border: black solid 1px;
     margin: auto 5px;
     height: 100%;
 }
@@ -109,9 +111,9 @@ h1 {
         align-self: flex-end;
     }
 
-    .project-info {
+    /* .project-info {
         display: ;
-    }
+    } */
 }
 
 @media screen and (min-width: 1000px) {
@@ -127,7 +129,6 @@ h1 {
 
 .headline-contacts {
     display: block;
-    text
     left: 10%;
     width: 100%;
     float: left;
