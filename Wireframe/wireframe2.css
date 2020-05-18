@@ -1,7 +1,11 @@
+/* font-family: 'Monda',400,700 sans-serif;
+font-family: 'Montserrat',400,500 sans-serif;
+font-family: 'Montserrat Subrayada',400,700 sans-serif; */
+
 
 
 body {
-    margin: 12% 0 0 ;
+    /* margin:  0 0 ; */
 }
 main , section, section * {
     box-sizing: border-box;
@@ -29,7 +33,7 @@ nav *{
     background-color: RGB(120, 125, 114);
     color: whitesmoke;
     border: 1px solid whitesmoke;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -43,10 +47,10 @@ nav *{
     top: 0;
     right: 0;
 }
+
 a {
     border: black solid 1px;
     margin: auto 5px;
-    height: 100%;
 }
 
 .headline-contacts div {
@@ -68,10 +72,14 @@ main {
 header, header *{
     background-color: RGB(157, 163, 161);
     color: black;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: ;
 }
 
 header {
     height: 7%;
+    position: sticky;
+    top: 7.1%;
 }
 .personal-info, .personal-info *{
     background-color: RGB(242, 252, 250);
@@ -111,9 +119,7 @@ h1 {
         align-self: flex-end;
     }
 
-    /* .project-info {
-        display: ;
-    } */
+    
 }
 
 @media screen and (min-width: 1000px) {
@@ -125,7 +131,9 @@ h1 {
     }
 }
 
-
+.project-info section {
+        margin: 0 5% 0;
+    }
 
 .headline-contacts {
     display: block;
@@ -149,6 +157,10 @@ h1 {
     height: 55%;
     width: 100%;
     text-align: center;
+}
+
+.project-header {
+    display: block;
 }
 
 .project-snapshot {
