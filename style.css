@@ -3,48 +3,61 @@ font-family: 'Montserrat',400,500 sans-serif;
 font-family: 'Montserrat Subrayada',400,700 sans-serif; */
 
 /* colors here
-    1
-    2
-    3
-    4
-    5
+    1 RGB 27, 60, 69 (white
+    2 RGB 138, 8, 69 (white
+    3 RGB 47, 156, 114 (darek gray, black
+    4 RGB 232, 125, 26 (dark gray, black 
+    5 RGB 39, 156, 41 (white
     */
+body {
+    padding: 0;
+    margin: 0;
+}
 
 body {
-    /* margin:  0 0 ; */
+    background-color: rgb(27, 60, 69);
 }
+
 main , section, section * {
     box-sizing: border-box;
     /* border: 1px solid black; */
 }
 
-header, .headline-contacts, .bio-parag, .project-info, .project-info section {
+header, .headline-contacts, .bio-parag, .project-header, .project-info, .project-info section {
     text-align: center;
 } 
 
 nav {
-    position: fixed;
+    /* position: sticky;
     top: 0;
     right: 0;
-    left: 0;
+    left: 0; */
     height: 7%;
     width: 100%;
-    background-color: RGB(120, 125, 114);
+    background-color: RGB(138, 8, 69);
     /* color: whitesmoke; */
 
     display: flex;
     justify-content: flex-end;
 }
 nav *{
-    background-color: RGB(120, 125, 114);
     color: whitesmoke;
-    border: 1px solid whitesmoke;
     font-size: 16px;
 }
 
 
 .initials-logo-nav {
     margin-right: auto;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.bio-nav, .contact-nav, .projects-nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h2, p, button {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .page-links {
@@ -55,15 +68,14 @@ nav *{
 }
 
 a {
-    border: black solid 1px;
     margin: auto 5px;
 }
 
 .headline-contacts div {
-    border: black solid 1px;
     width: 50%;
     margin: auto auto;
 }
+
 
 .headline-contacts img {
     height: 20%;
@@ -76,23 +88,20 @@ main {
 }
 
 header, header *{
-    background-color: RGB(157, 163, 161);
-    color: black;
+    color: whitesmoke;
     font-family: 'Montserrat Subrayada', sans-serif;
-    font-weight: ;
 }
 
 header {
     height: 7%;
-    position: sticky;
-    top: 7.1%;
+    width: auto;
 }
 .personal-info, .personal-info *{
     background-color: RGB(242, 252, 250);
-    color: black;
+    color: rgb(27, 60, 69);
 }
 .project-info, .project-info *{
-    background-color: RGB(57, 58, 69);
+    background-color: RGB(138, 8, 69);
     color: whitesmoke;
 }
 h1 {
@@ -100,12 +109,13 @@ h1 {
     width: 50%;
     margin: auto;
     text-align: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .personal-info {
     /* height: auto; */
     display: block;
-    width: 100%;
+    width: 90%;
     height: 40%;
 }
 
@@ -157,6 +167,7 @@ h1 {
 .bio-parag p{
     text-align: justify;
     margin: 5%;
+    font-weight: 600;
 }
 
 .project-info {
@@ -167,6 +178,8 @@ h1 {
 
 .project-header {
     display: block;
+    margin: auto;
+    color: whitesmoke;
 }
 
 .project-snapshot {
