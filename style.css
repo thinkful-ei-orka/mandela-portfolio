@@ -56,8 +56,14 @@ nav *{
     font-weight: 500;
 }
 
-h2, p, button {
+h2, p, .demo-link, .repo-link {
     font-family: 'Montserrat', sans-serif;
+}
+
+.demo-link, .repo-link {
+    border: whitesmoke solid 1px;
+    text-decoration: none;
+    padding: 1px;
 }
 
 .page-links {
