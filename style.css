@@ -123,6 +123,7 @@ h1 {
     display: block;
     width: 90%;
     height: 40%;
+    margin: auto;
 }
 
 @media screen and (min-width: 750px) {
