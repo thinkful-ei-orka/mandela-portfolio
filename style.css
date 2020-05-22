@@ -23,9 +23,15 @@ main , section, section * {
     /* border: 1px solid black; */
 }
 
-header, .headline-contacts, .bio-parag, .project-header, .project-info, .project-info section {
+header, .headline-contacts, .bio-parag, .project-header, .project-info, .project-info section, .personal-header {
     text-align: center;
 } 
+
+.personal-header {
+    align-self: stretch;
+    position: absolute;
+    display: block;
+}
 
 nav {
     /* position: sticky;
@@ -187,6 +193,8 @@ h1 {
     display: block;
     margin: auto;
     color: whitesmoke;
+    position: absolute;
+    
 }
 
 .project-snapshot {
