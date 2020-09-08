@@ -182,10 +182,10 @@ h1 {
 @media screen and (min-width: 750px) {
     .personal-info {
         /* display: grid;
-        justify-content: center;
-        grid-template-columns: 45% 45%;
+        /* grid-template-columns: 45% 45%;
         grid-template-rows: 10% 30% 30% 30%;
-        grid-column-gap: 10%;
+        justify-content: center;
+        grid-column-gap: 10%; */
         /* grid-template-areas: 
         "header header"
         "headline bio"
@@ -197,7 +197,7 @@ h1 {
         
         height: 60vh;
         width: 90%;
-        margin: auto
+        margin: auto;
     }
     
     .personal-header {
@@ -219,8 +219,8 @@ h1 {
     }
     
     .project-info section {
-        margin: 0 3% 0;
-        width: 33%
+        margin: 0 auto 0;
+        width: 80%
     }
 }
 
@@ -230,6 +230,11 @@ h1 {
         flex-direction: row;
         justify-content: center;
         align-items: stretch;
+    }
+
+    .project-info section {
+        margin: 0 3% 0;
+        width: 33%
     }
 }
 
