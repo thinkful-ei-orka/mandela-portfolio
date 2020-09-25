@@ -1,11 +1,7 @@
-/* font-family: 'Monda',400,700 sans-serif;
-font-family: 'Montserrat',400,500 sans-serif;
-font-family: 'Montserrat Subrayada',400,700 sans-serif; */
-
 /* colors x fonts here
     1 RGB 27, 60, 69 (white
     2 RGB 138, 8, 69 (white
-    3 RGB 47, 156, 114 (darek gray, black
+    3 RGB 47, 156, 114 (dark gray, black
     4 RGB 232, 125, 26 (dark gray, black 
     5 RGB 39, 156, 41 (white
 
@@ -14,59 +10,72 @@ font-family: 'Montserrat Subrayada',400,700 sans-serif; */
     font-family: 'Titillium Web', sans-serif;
     font-size: 200,300,400,600,900
     */
+    
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* body {
+    padding: 0;
+    margin: 0;
+} */
 
+body header {
+    margin-bottom: 2rem;
+}
 body header h1 {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 900;
-    font-size: 7.5rem;
+    font-size: 5.7rem;
     margin: auto .25rem;    
 }
 body header h1.last-name-h1 {
     position: relative;
-    top: -3rem;
+    top: -2.3rem;
 }
 
 body header .separator-header {
-    height: 10rem;
+    height: 9.5rem;
 }
 
 /*  make either (pref headline) less visually important*/
 body header h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
-body header h2{
+body header h2 {
     position: relative;
 }
 
 nav {
     position: sticky;
     top: 0;
+    z-index: 10;
+    height: 6vh;
+    /* padding: 0 3%; */
+    margin-top: 12vw;
+    margin-bottom: 5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
     background-color: tomato;
 }
 
 nav * {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
     text-decoration: none;
 }
 
 nav a.initials-logo-nav {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 900;
+    font-size: 2rem;
 }
 
 nav ul.nav-links {
@@ -78,9 +87,70 @@ nav ul.nav-links li{
     /* set padding (namely left and right) */
 }
 
-.headline-contacts img {
+main {
+    position: relative;
+    top: 10vh;
+}
+
+main * {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+main h2 {
+    font-weight: 500;
+}
+
+main h3 {
+    font-weight: 500;
+}
+
+h2.personal-header, h2.contact-link-header, h2.project-header {
+    padding-top: 6vh;
+    text-align: center;    
+}
+
+main section#bio div.bio-p {
+    margin-top: 2vw;
+}
+
+main section.headline-contacts div {
+    margin: 3vh auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+main section.headline-contacts div a{
+    margin: 2vw;
+}
+
+main section.headline-contacts div a img {
     height: 20%;
     width: 20%;
+}
+
+section.project-info {
+    height: 55%;
+    width: 100%;
+    text-align: center;
+}
+
+
+h2.project-header {
+    display: block;
+    margin: auto;
+}
+
+div.project-flex-container {
+    margin: 0 auto;
+}
+
+section.project-info section {
+        margin: 0 5% 0;
+    }
+
+section.project-info section h3 {
+    margin-top: 3vh;
 }
 
 .project-snapshot {
