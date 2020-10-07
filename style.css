@@ -9,12 +9,13 @@ font-family: 'Montserrat Subrayada',400,700 sans-serif; */
     4 RGB 232, 125, 26 (dark gray, black 
     5 RGB 39, 156, 41 (white
     */
-body {
-    padding: 0;
-    margin: 0;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
+    padding: 0;
+    margin: 0;
     background-color: rgb(27, 60, 69);
 }
 
