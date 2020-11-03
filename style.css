@@ -33,6 +33,10 @@ header, .headline-contacts, .bio-parag, .project-header, .project-info, .project
     display: block;
 }
 
+header#top-of-page {
+    background-image: url('resource/singleLeaf large.jpg');
+}
+
 nav {
     /* position: sticky;
     top: 0;
